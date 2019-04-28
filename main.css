@@ -1,0 +1,11 @@
+.my-col {
+    padding: 20px;
+    margin: 10px;
+    transition: all 0.5s;
+  }
+/*class my-col xuất hiện để đảm bảo 4 col không bị tràn quá width*/
+.my-col:hover{
+    background-color:#2196F3;
+    color:white;
+    transition: all 0.5s;
+}
