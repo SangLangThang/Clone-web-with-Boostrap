@@ -7,9 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 
 
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
 </head>
 
 <body>
@@ -26,7 +33,6 @@
                     <h3><i class="fas fa-coffee"></i></h3>
                     <p>Restaurant</p>
                 </div>
-
             </div>
             <div class=" col-md-3 ">
                 <div class="my-col rounded border">
@@ -84,33 +90,364 @@
             This Are Some Of Most Popular Listing
         </p>
     </div>
-    <div class="container m-5">
-        <div class="row">
-            <div class="card bg-dark text-white">
-                <img src="./images/listing-4.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </h5>
-                    <p class="card-text">Water Grill</p>
-                    <p class="card-text">Nha Trang</p>
+
+    <div class="container my-5">
+        <div class="customNavigation text-center m-4">
+            <a class=" prev p-3 border rounded"><i class="fas fa-angle-left fa-lg"></i></a>
+            <a class=" next p-3 border rounded"><i class="fas fa-angle-right fa-lg"></i></a>
+        </div>
+        <div class="owl-carousel">
+            <div class="mx-2">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./assets/img/list-hambuger.jpg" class="card-img my_image" alt="...">
+                    <div class="card-img-overlay mt-5">
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs "></i>
+                        <h2 class="card-text">Burger House</h2>
+                        <p class="card-text">2726 Shinn Street, New York</p>
+                    </div>
+                    <div class="card-footer bg-white border">
+                        <div class="text-muted d-flex align-items-center p-2">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <span>&#160 9.2 k</span>
+                            <a href="#" class="ml-auto">Eat & Drink</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer bg-white border">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+            <div class="mx-2">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./assets/img/list-airport.jpg" class="card-img my_image" alt="...">
+                    <div class="card-img-overlay mt-5">
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <h2 class="card-text">John F. Kennedy Airport </h2>
+                        <p class="card-text">Queens, NY 11430, new York</p>
+                    </div>
+                    <div class="card-footer bg-white border">
+                        <div class="text-muted d-flex align-items-center p-2">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <span>&#160 15 k</span>
+                            <a href="#" class="ml-auto">Orther</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-2">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./assets/img/list-watergrill.jpg" class="card-img my_image" alt="...">
+                    <div class="card-img-overlay mt-5">
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <h2 class="card-text">Water Grill</h2>
+                        <p class="card-text">31 Union Square, New York</p>
+                    </div>
+                    <div class="card-footer bg-white border">
+                        <div class="text-muted d-flex align-items-center p-2">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <span>&#160 8 k</span>
+                            <a href="#" class="ml-auto">Eat & Drink</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-2">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./assets/img/list-coffe.jpg" class="card-img my_image" alt="...">
+                    <div class="card-img-overlay mt-5">
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <h2 class="card-text">Think Coffee</h2>
+                        <p class="card-text">215 Terry Lane, New York</p>
+                    </div>
+                    <div class="card-footer bg-white border">
+                        <div class="text-muted d-flex align-items-center p-2">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <span>&#160 8 k</span>
+                            <a href="#" class="ml-auto">Eat & Drink</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-2">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./assets/img/list-hotel.jpg" class="card-img my_image" alt="...">
+                    <div class="card-img-overlay mt-5">
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <i class="fas fa-star fa-xs text-warning"></i>
+                        <h2 class="card-text">Hotel Govendor</h2>
+                        <p class="card-text">778 Country Street, New York</p>
+                    </div>
+                    <div class="card-footer bg-white border">
+                        <div class="text-muted d-flex align-items-center p-2">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <span>&#160 5 k</span>
+                            <a href="#" class="ml-auto">Hotels</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 3 -->
+    <div class="container-fluid text-center section3 text-white d-flex my-5 py-5">
+        <h1 class="mb-5"> Why Listty?</h1>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <div class="text-center countItems">
+                        <div class="counter mb-4 d-inline-block align-bottom">
+                            140
+                        </div>
+                        <div class="container-fluid">Cities</div>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center countItems">
+                        <div class="counter mb-4 d-inline-block align-bottom">
+                            140
+                        </div>
+                        <div class="container-fluid">Cities</div>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center countItems">
+                        <div class="counter mb-4 d-inline-block align-bottom">
+                            140
+                        </div>
+                        <div class="container-fluid">Cities</div>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center countItems">
+                        <div class="counter mb-4 d-inline-block align-bottom">
+                            140
+                        </div>
+                        <div class="container-fluid">Cities</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 ">
+                <div class="col">
+                    <a href="" class="btn text-white border-white px-5">GET IT NOW</a>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="container-fluid  text-center mt-5">
+        <h2>How It Works?</h2>
+        <p class="lead">
+            This Are Some Of Most Popular Listing
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="rounded border text-center p-3">
+                    <img src="./assets/img/work-2.png" class="m-5" alt="...">
+                    <h3>
+                        <a href="#" class="text-reset text-decoration-none">Find What You Want</a>
+                    </h3>
+
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor
+                        incididunt labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="rounded border text-center p-3">
+                    <img src="./assets/img/work-1.png" class="m-5" alt="...">
+                    <h3>
+                        <a href="#" class="text-reset text-decoration-none">
+                            Review & Plan your day
+                        </a>
+                    </h3>
+
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor
+                        incididunt labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="rounded border text-center p-3">
+                    <img src="./assets/img/work-3.png" class="m-5" alt="...">
+                    <h3>
+                        <a href="#" class="text-reset text-decoration-none">Explore Location
+                        </a>
+                    </h3>
+
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor
+                        incididunt labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container  my-5">
+        <div class="row">
+            <div class="col-md-12 d-flex">
+                <a href="#" class="btn btn-primary text-white mx-auto">WATCH IT NOW <i
+                        class="fas fa-play-circle"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid  text-center my-5 py-5">
+        <h2>Articles</h2>
+        <p class="lead">
+            Brouse Latest Tips From Our Blog
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+                <img src="./assets/img/article-1.jpg" class="my-5" alt="..." style="max-width: 100%;">
+                <p class="lead">Jan 22, 2018 By
+                    <a href="#">Jno Deo</a>
+                </p>
+                <h3>
+                    <a href="#" class="text-reset text-decoration-none">
+                        Review & Plan your day
+                    </a>
+                </h3>
+
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor
+                    incididunt labore et dolore magna aliqua.</p>
+
+            </div>
+            <div class="col-md-4">
+
+                <img src="./assets/img/article-2.jpg" class="my-5" alt="..." style="max-width: 100%;">
+                <p class="lead">Jan 22, 2018 By
+                    <a href="#" class="">Jno Deo</a>
+                </p>
+                <h3>
+                    <a href="#" class="text-reset text-decoration-none">
+                        Ut Enim Ad Minim Veniam.
+                    </a>
+                </h3>
+
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor
+                    incididunt labore et dolore magna aliqua.</p>
+
+            </div>
+            <div class="col-md-4">
+
+                <img src="./assets/img/article-3.jpg" class="my-5" alt="..." style="max-width: 100%;">
+                <p class="lead">Jan 22, 2018 By
+                    <a href="#" class="">Jno Deo</a>
+                </p>
+                <h3>
+                    <a href="#" class="text-reset text-decoration-none">
+                        Review & Plan your day
+                    </a>
+                </h3>
+
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor
+                    incididunt labore et dolore magna aliqua.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid section4 p-3 my-5">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-8 text-white my-3">
+                    <h4 class="section4-text">Listty Is The Best Way<br>To Find Great Local Business </h4>
+                </div>
+                <div class="col-md-2 ml-auto">
+                    <a href="" class="btn btn-block text-white border-white">GET STARTED</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="containet-fluid">
+        <div class="container text-white py-5">
+            <div class="row">
+                <div class="col-md-7">
+                    <a href="" class="btn text-white border-white mb-5">LISTTY</a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                    <p><i class="fas fa-phone-volume"></i> [88] 657 524 332</p>
+                    <p><i class="fas fa-envelope"></i><a href="#"
+                            class="text-reset text-decoration-none">info@listy.com</a></p>
+
+                </div>
+                <div class="col-md-3">
+                    <h1>Link</h1>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none footer-list">Dashboard</a></li>
+                        <li><a href="#" class="text-decoration-none footer-list">Create Account</a></li>
+                        <li><a href="#" class="text-decoration-none footer-list">Login</a></li>
+                        <li><a href="#" class="text-decoration-none footer-list">Add Listing</a></li>
+                        <li><a href="#" class="text-decoration-none footer-list">Edit Listing</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            margin: 10,
+            loop: true,
+            autoplay: true,
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+
+                800: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+        $(".next").click(function () {
+            owl.trigger('next.owl.carousel');
+        })
+        $(".prev").click(function () {
+            owl.trigger('prev.owl.carousel', [300]);
+        })
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
 </body>
 
 </html>

@@ -1,0 +1,68 @@
+.my-col {
+    padding: 20px;
+    margin: 10px;
+    transition: all 0.5s;
+  }
+/*class my-col xuất hiện để đảm bảo 4 col không bị tràn quá width*/
+.my-col:hover{
+    background-color:#2196F3;
+    color:white;
+    transition: all 0.5s;
+}
+.my_image{
+    filter: brightness(70%);
+    max-width:100%;
+}
+.customNavigation a{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .customNavigation a:hover{
+      background:#2196F3;
+  }
+  .countItems{
+      
+  }
+.counter{
+    width:120px;
+    height:120px;
+    border:4px solid gray;
+    border-radius:100%;
+    font-size:45px;
+    line-height:100px;
+    
+}
+footer{
+    background-image: url("../img/bg-footer.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.footer-list{
+    color: hsl(0, 0%, 81%);
+    line-height: 24px;
+    margin:30px;
+}
+.section3{
+    background-image: url("../img/banner-1.jpg");
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    flex-direction: column;
+    justify-content: center;
+}
+.section4{
+    background-color:#2196F3;
+    
+}
+.section4-text{
+    line-height: 40px;
+}
