@@ -45,8 +45,13 @@ footer{
 .footer-list{
     color: hsl(0, 0%, 81%);
     line-height: 24px;
-    margin:30px;
+    text-decoration: none;
 }
+.footer-list:hover{
+    
+    text-decoration-line: underline;
+}
+
 .section3{
     background-image: url("../img/banner-1.jpg");
     min-height: 500px; 
@@ -66,3 +71,33 @@ footer{
 .section4-text{
     line-height: 40px;
 }
+li.dropdown:hover > .dropdown-menu {
+   display:block
+}
+.quote:before {
+    content: "";
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    left:10%;
+    top:-10px;
+	border-left: 10px solid transparent;  /* left arrow slant */
+	border-right: 10px solid transparent; /* right arrow slant */
+	border-bottom: 10px solid white; /* bottom, add background color here */
+	font-size: 0;
+	line-height: 0;
+  }
+
+  .mynavbar{
+    background-image: url("../img/banner-1.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .columns-3{
+      min-width:600px;
+  }
+
+
+
+  
